@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Martian+Mono:wght@100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Faculty Glyphic", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffeaea;
+}
+
+header {
+    background-color: #381515;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.pesquisar {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    padding: 0 15px; 
+}
+
+.pesquisar input[type="text"] {
+    padding: 5px;
+    font-size: 1vw;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pesquisar button {
+    padding: 5px 10px;
+    background-color: #381515;
+    color: white;
+    border: none;
+    border-radius: 5px cursor: pointer;
+}
+
+.pesquisar button:hover {
+    background-color: #560000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+    font-size: 1.5vw;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    opacity: 50%;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #560000;
+    padding: 10px;
+}
+
+nav ul li:hover ul {
+    display: block;
+    color:#560000;
+}
+
+.foto{
+    background-color: #600d0d;
+    width: 100vw;
+    padding: 0;
+
+    & img{
+        padding: 0vw;
+        width: 100vw;
+        height: auto;
+    }
+}
+
+.sobre{
+    width: 100vw;
+     & h1{
+        color: #600d0d;
+     }
+
+    & p{
+        max-width: 70vw;
+        text-align: justify;
+        font-size: 1.5vw;
+    }
+}
+
+.destaques{
+    width: 100vw;
+    background-color: #600d0d;
+
+    & .destaquestitulo{
+        padding:1vw;
+        & h1{
+            font-size: 3vw;
+            color: rgb(255, 234, 234);
+        }
+    }
+
+    & .roupas {
+        width: 90vw;
+        padding: 3vw;
+    
+        .roupas1{
+            display: flex;
+            justify-content: space-around; 
+            margin-bottom: 2vw; 
+    
+            .card {
+                background-color: #ffeaea; 
+                width: 20vw; 
+                height: auto; 
+                border-radius: 10px; 
+                text-align: center; 
+                padding: 1vw; 
+    
+                img {
+                    width: 100%; 
+                    border-radius: 10px; 
+                }
+    
+                h1 {
+                    font-size: 1.5vw; 
+                    color: #381515; 
+                    margin: 0.5vw 0; 
+                }
+    
+                p {
+                    font-size: 1vw; 
+                    color: #000000;
+                    margin: 0; 
+                }
+            }
+            .card:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+
+
+.contato{
+    width: 100vw;
+
+    & .h1{
+        & h1{
+            color:#600d0d;
+        }
+        & input{
+            width: 40vw;
+            height: 2vw;
+            border-radius: 1vw;
+        }
+    }
+}
+
+
+
+
+footer{
+    margin: 0;
+    padding: 0;
+    height: 4vw;
+    & h4{
+        color:#560000;
+    }
+}
+

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Martian+Mono:wght@100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Faculty Glyphic", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffeaea;
+}
+
+header {
+    background-color: #381515;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.pesquisar {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    padding: 0 15px; 
+}
+
+.pesquisar input[type="text"] {
+    padding: 5px;
+    font-size: 1vw;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pesquisar button {
+    padding: 5px 10px;
+    background-color: #381515;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pesquisar button:hover {
+    background-color: #560000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+    font-size: 1.5vw;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    opacity: 50%;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #560000;
+    padding: 10px;
+}
+
+nav ul li:hover ul {
+    display: block;
+    color: #560000;
+}
+
+.carrinho-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.carrinho-vazio {
+    margin: 20px 0;
+}
+
+.carrinho-vazio p {
+    font-size: 1.2vw;
+    color: #600d0d;
+}
+
+.continuar-comprando ```css
+ {
+    margin-top: 20px;
+}
+
+.continuar-comprando button {
+    padding: 10px 20px;
+    background-color: #381515;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continuar-comprando button:hover {
+    background-color: #560000;
+}

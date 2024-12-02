@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Martian+Mono:wght@100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Faculty Glyphic", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffeaea;
+}
+
+header {
+    background-color: #381515;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.pesquisar {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    padding: 0 15px; 
+}
+
+.pesquisar input{
+    padding: 5px;
+    font-size: 1vw;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pesquisar button {
+    padding: 5px 10px;
+    background-color: #381515;
+    color: white;
+    border: none;
+    border-radius: 5px cursor: pointer;
+}
+
+.pesquisar button:hover {
+    background-color: #560000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+    font-size: 1.5vw;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    opacity: 50%;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #560000;
+    padding: 10px;
+}
+
+nav ul li:hover ul {
+    display: block;
+    color:#560000;
+}
+
+
+body{
+    background-color: #ffeaea;
+
+    & .linha1, .linha2 {
+        padding-top: 2vw;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    
+    .div1, .div2, .div3, .div4, .div5, .div6 {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 25%; 
+        text-align: center;
+        padding: 15px; 
+        transition: transform 0.2s;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    h1 {
+        font-size: 1.3em; 
+        margin: 10px 0;
+        color: #333;
+    }
+    
+    p {
+        font-size: 0.9em; 
+        color: #666;
+    }
+    
+    button {
+        background-color: #560000;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 12px; 
+        cursor: pointer;
+        font-size: 0.9em; 
+        transition: background-color 0.3s;
+    }
+}
+
